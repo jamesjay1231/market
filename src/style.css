@@ -1,0 +1,74 @@
+.login-container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-container img {
+  margin-bottom: 70px;
+  width: 238px;
+  height: 74px;
+}
+.form-container {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-button {
+  display: flex;
+  width: 100%;
+}
+.tab-button button {
+  background: none;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  border-bottom: none;
+  cursor: pointer;
+  width: 50%;
+  height: 80px;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.form-input {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  z-index: 1;
+  transform: translateY(-20px);
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+.form-input form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+}
+.form-input button {
+  width: 480px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 36px 0 36px 0;
+  background: #21bf48;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+.form-input input {
+  border: 0px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding: 20px;
+  width: 80%;
+}
+.link {
+  margin-top: 30px;
+}
+.link a {
+  text-decoration: none;
+  color: #000000;
+}
